@@ -33,5 +33,15 @@ public class ContinueAndBreakCommand {
         }
 
         // Same in Do-While
+
+        System.out.println("\n--- Test ---");
+
+        for (int k = 1; k <= 2; ++k) {
+            for (int j = 1; j < 4; ++j) {
+                if (k == 1)
+                    continue;
+                System.out.print(k + j);
+            }
+        }
     }
 }
