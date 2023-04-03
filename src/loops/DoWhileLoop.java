@@ -21,6 +21,8 @@ public class DoWhileLoop {
             }
         } while (askPassword);
 
+        System.out.println("-----------------------\n");
+
         int i = 1, j = 1;
         while (i < 3) {
             do {
